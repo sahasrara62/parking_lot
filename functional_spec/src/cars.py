@@ -14,13 +14,13 @@ class Car(object):
         :param registation_number: registation number of car
         :param color: color of car
         """
-        self.reg_number = registation_number
-        self.color = color
+        self._reg_number = registation_number
+        self._color = color
 
     @property
     def get_registration_number(self):
-        return self.reg_number
+        return self._reg_number
 
     @property
     def get_color(self):
-        return self.color
+        return self._color
