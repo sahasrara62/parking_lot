@@ -6,12 +6,12 @@ Allocated Slot Number: 4
 Allocated Slot Number: 5
 Allocated Slot Number: 6
 slot number 4 is free
-Slot No 	Registration No          	Color     
-         1	KA-01-HH-1234            	White     
-         2	KA-01-HH-9999            	White     
-         3	KA-01-BB-0001            	Black     
-         5	KA-01-HH-2701            	Blue      
-         6	KA-01-HH-3141            	Black
+Slot No  	     Registration No     	  Color   
+    1     	      KA-01-HH-1234      	  White   
+    2     	      KA-01-HH-9999      	  White   
+    3     	      KA-01-BB-0001      	  Black   
+    5     	      KA-01-HH-2701      	   Blue   
+    6     	      KA-01-HH-3141      	  Black
 Allocated Slot Number: 4
 Sorry, parking lot is full
 KA-01-HH-1234, KA-01-HH-9999, KA-01-P-333

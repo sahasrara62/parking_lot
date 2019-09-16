@@ -59,7 +59,8 @@ def command(line, parking_lot):
         elif data[0] == 'status':
 
             if len(data) == 1:
-                _str_ = '{:10}\t{:25}\t{:10}'.format('  Slot No', 'Registration No', 'Color', width=25)
+                _str_ = '{:10}\t{:25}\t{:10}'.format('Slot No'.center(10), 'Registration No'.center(25),
+                                                     'Color'.center(10), width=25)
                 slot_status = parking_lot.used_slots()
 
                 if len(slot_status.keys()) == 0:
@@ -68,8 +69,9 @@ def command(line, parking_lot):
                     final_str = ''
                     final_str += _str_ + '\n'
                     for i in slot_status.keys():
-                        _str = '{:10}\t{:25}\t{:10}'.format(i, slot_status[i].get_registration_number,
-                                                            slot_status[i].get_color, width=25)
+                        _str = '{:10}\t{:25}\t{:10}'.format(str(i).center(10),
+                                                            str(slot_status[i].get_registration_number).center(25),
+                                                            str(slot_status[i].get_color).center(10), width=25)
                         # print(i,slot_status[i].get_registration_number,slot_status[i].get_color,sep='\t\t')
                         final_str += _str + '\n'
                     return final_str.strip()
