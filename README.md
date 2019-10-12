@@ -96,3 +96,7 @@ through outside won't work.
    b. Run using input file
    
         python main.py <path to the input file>
+
+5. To test the code run the command
+
+       python -m pytest -q functional_spec/tests/test_parking_lot.py
