@@ -1,4 +1,4 @@
-__str__ = 'error which are more pertain to the system is written here'
+__str__ = 'error which are more certain to the system is written here'
 __all__ = ['SlotError', 'SizeError', 'CarError', 'FileError']
 
 
